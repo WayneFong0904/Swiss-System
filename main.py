@@ -1,5 +1,5 @@
 import random
-#Hello this is new code
+
 class player:
     def __init__(self, num):
         self.name = 'Player ' + str(num + 1)
