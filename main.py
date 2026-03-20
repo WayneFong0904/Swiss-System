@@ -104,7 +104,7 @@ def first_game(players):
         
         #Set a player as bye.
         #The last player in list will always be bye player
-        #The last player will always be located in right_players list
+        #The last player will always be located in left_players list
         #The code below is just for a safety measurement
         if len(left_players) > len(right_players):
             bye_player = len(left_players) - 1
